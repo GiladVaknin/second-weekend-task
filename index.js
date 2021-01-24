@@ -101,20 +101,19 @@ for (let i = 0; i < objects.length; i++) {
   let classNameTime;
   if (t <= 24) {
     classNameTime = "fast";
-  } else if (72 >= t >= 24) {
+  } else if (72 >= t) {
     classNameTime = "med";
   } else {
     classNameTime = "slow";
   }
   if (p <= 50) {
     classNamePercent = "bad";
-  } else if (80 >= p > 50) {
+  } else if (85 > p) {
     classNamePercent = "good";
   } else {
     classNamePercent = "avg";
   }
 
-  //   for (let data of objects) {
   document.write(`<tr>
   <td>${objects[i].topic}</td>
   <td class="${classNamePercent}">${objects[i].percentDone}%</td>
@@ -124,14 +123,5 @@ for (let i = 0; i < objects.length; i++) {
   <td>${objects[i].finishedAt}</td>
   <td>${objects[i].startedAt}</td>
   </tr>`);
-  //   }
 }
 document.write("</table>");
-// for (let percent of objects) {
-//   let p = percent.percentDone;
-//   let classNamePrecent;
-//   let classNameTime;
-//   if (p > 0) {
-//     classNameTime = "good";
-//   }
-// }
