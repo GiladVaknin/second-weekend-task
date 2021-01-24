@@ -1,6 +1,6 @@
 table {
   text-align: center;
-  font-size: medium;
+  font-size: 15px;
   border: 1px black solid;
   width: 80%;
   margin: auto;
@@ -13,14 +13,16 @@ td {
   font-size: 20px;
   font-family: fantasy;
   border-radius: 10%;
+  background-color: grey;
 }
 th {
   border: 1px black solid;
   text-align: center;
   font-size: 30px;
-  color: black;
-  background-color: gray;
+  color: white;
+  background-color: rgb(51, 48, 48);
   font-family: fantasy;
+  font-weight: 50;
 }
 .good {
   background-color: rgb(65, 90, 143);
