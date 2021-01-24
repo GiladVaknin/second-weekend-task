@@ -1,0 +1,41 @@
+table {
+  text-align: center;
+  font-size: medium;
+  border: 1px black solid;
+  width: 80%;
+  margin: auto;
+  height: 85vh;
+}
+td {
+  border: 1px black solid;
+  text-align: center;
+  font-size: medium;
+  font-size: 20px;
+  font-family: fantasy;
+}
+th {
+  border: 1px black solid;
+  text-align: center;
+  font-size: 30px;
+  color: black;
+  background-color: gray;
+  font-family: fantasy;
+}
+.good {
+  background-color: rgb(0, 81, 255);
+}
+.fast {
+  background-color: green;
+}
+.med {
+  background-color: greenyellow;
+}
+.slow {
+  background-color: rgb(64, 255, 47);
+}
+.bad {
+  background-color: rgb(2, 32, 95);
+}
+.avg {
+  background-color: rgb(18, 169, 196);
+}
