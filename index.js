@@ -101,7 +101,7 @@ for (let i = 0; i < objects.length; i++) {
   let classNameTime;
   if (t <= 24) {
     classNameTime = "fast";
-  } else if (72 >= t) {
+  } else if (80 >= t) {
     classNameTime = "med";
   } else {
     classNameTime = "slow";
@@ -115,7 +115,7 @@ for (let i = 0; i < objects.length; i++) {
   }
 
   document.write(`<tr>
-  <td>${objects[i].topic}</td>
+  <td class="topic">${objects[i].topic}</td>
   <td class="${classNamePercent}">${objects[i].percentDone}%</td>
   <td>${objects[i].tasksFinished}</td>
   <td>${objects[i].tasksGiven}</td>

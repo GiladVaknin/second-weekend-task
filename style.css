@@ -12,6 +12,7 @@ td {
   font-size: medium;
   font-size: 20px;
   font-family: fantasy;
+  border-radius: 10%;
 }
 th {
   border: 1px black solid;
@@ -38,4 +39,7 @@ th {
 }
 .avg {
   background-color: rgb(18, 169, 196);
+}
+.topic {
+  background-color: gray;
 }
